@@ -1,0 +1,38 @@
+{
+  "name": "config-webpack",
+  "version": "1.0.0",
+  "description": "Basic configuration webpack for work in Html, Css, Js, Jsx and React",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "build" : "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haglermgp/config-WebPack.git"
+  },
+  "keywords": [
+    "Webpack",
+    "loader-react",
+    "loader-css",
+    "loader-javascript"
+  ],
+  "author": "haglermgp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haglermgp/config-WebPack/issues"
+  },
+  "homepage": "https://github.com/haglermgp/config-WebPack#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "webpack": "^2.5.1"
+  }
+}
