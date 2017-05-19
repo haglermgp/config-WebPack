@@ -7,6 +7,12 @@ class App extends React.Component {
     return (
       <div>
         <h1> Hello React!</h1>
+        <h1> Hello React!</h1>
+        <h1> Hello React!</h1>
+        <h1> Hello React!</h1>
+        <h1> Hello React!</h1>
+        <h1> Hello React!</h1>
+        <h1> Hello React!</h1>
         <Awesom />
       </div>
     )
